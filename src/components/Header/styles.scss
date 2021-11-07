@@ -1,0 +1,36 @@
+.header-container {
+    background: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+
+
+    .logo-container {
+        width: 100%;
+        height: auto;
+
+        .background-header {
+            display: flex;
+            z-index: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .container-text {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            font-size: 1.875rem;
+            font-weight: 700;
+        }
+
+        p {
+            //text-justify: inter-word;
+            text-justify: distribute-all-lines;
+            font-size: 1rem;
+        }
+    }
+
+}
