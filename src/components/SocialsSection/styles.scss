@@ -1,0 +1,41 @@
+.socials-section-container {
+    background: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 4rem 0;
+    
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+        text-align: center;
+
+        gap: 0.5rem 12.5rem;
+        
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+
+        i {
+            color: #3E66FB;
+        }
+
+    }
+
+    .divisor{
+        width: 80%;
+        border-top: 2px solid #2691CF;
+        display: flex;
+        justify-content: center;
+        margin: 4rem 0;
+    }
+
+}
