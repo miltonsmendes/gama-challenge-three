@@ -11,32 +11,35 @@ export function EmailFormular() {
                     Contate-nos
                 </div>
                 <div>
-                    Nosso endereço é:
-                    Lar Espírita da Terceira Idade André Luiz
-                    Rua Vera número 5787
-                    CEP 76824-360
+                    Nosso endereço é: <br />
+                    Lar Espírita da Terceira Idade André Luiz<br />
+                    Rua Vera número 5787<br />
+                    CEP 76824-360<br />
                     Porto Velho - RO
                 </div>
             </div>
 
-            <div>
-                <div>Tem interesse em ajudar nosso projeto?
+            <div className="formular-container">
+                <div>Tem interesse em ajudar nosso projeto? <br />
                     Entre em contato com a gente!
                 </div>
 
-                <div>
+                <div className="input-container">
+                    <div>Nome completo*</div>
                     <input type="text"></input>
                 </div>
 
-                <div>
+                <div className="input-container">
+                    <div>E-mail*</div>
                     <input type="text"></input>
                 </div>
 
-                <div>
-                    <input type="text"></input>
+                <div className="input-container">
+                    <div>Mensagem*</div>
+                    <textarea></textarea>
                 </div>
 
-                <div>
+                <div className="button-container">
                     <button type="button">Enviar</button>
                 </div>
             </div>
