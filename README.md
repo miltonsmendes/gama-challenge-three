@@ -1,2 +1,2 @@
 # gama-challenger-three
-Third Gama's challenger
+Third Gama's challenge
