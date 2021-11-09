@@ -1,4 +1,5 @@
 import {Header} from './components/Header'
+import {CarouselComponent} from './components/CarouselComponent'
 import {WorkSection} from './components/WorkSection'
 import {DonationSection} from './components/DonationSection'
 import {SocialsSection} from './components/SocialsSection'
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      <CarouselComponent />
       <WorkSection />
       <DonationSection />
       <SocialsSection />
