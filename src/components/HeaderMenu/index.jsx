@@ -11,8 +11,6 @@ export function HeaderMenu() {
 
     const [clicked, setClicked] = useState(false);
 
-
-
     function handleClickMenu() {
         setClicked(!clicked);
     }
@@ -46,8 +44,6 @@ export function HeaderMenu() {
                                 </Link>
                             )
                         })}
-
-
 
                     </ul>
                 </div>

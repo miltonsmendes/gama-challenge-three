@@ -1,6 +1,4 @@
-
 import './styles.scss';
-
 
 export function DonationSection() {
 
@@ -68,7 +66,6 @@ export function DonationSection() {
                 </div>
 
             </div>
-
         </div>
     );
 

@@ -5,17 +5,20 @@ import './styles.scss';
 
 export function EmailFormular() {
 
-    function sendEmail(e){
+
+
+    function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('lealtestGmail', 'template_wy4k7of', e.target, 'user_iomDcVHL2FDmhx0417e7H')
-          .then((result) => {
-              alert('Mensagem enviada! Obrigado pelo contato!')
-          }, (error) => {
-              alert(error.text)
-          });
-          e.target.reset();
+        emailjs.sendForm(process.env.REACT_APP_USER_LOGIN, process.env.REACT_APP_EMAIL_TEMPLATE, e.target, process.env.REACT_APP_USER_ID)
+            .then((result) => {
+                alert('Mensagem enviada! Obrigado pelo contato!')
+            }, (error) => {
+                alert(error.text)
+            });
+        e.target.reset();
     }
+    console.log(process.env)
 
     return (
         <div className="email-section-container">

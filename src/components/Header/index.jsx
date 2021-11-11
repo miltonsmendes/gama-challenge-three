@@ -1,6 +1,4 @@
-import LogoImage from '../../assets/images/logo-espirita.svg';
 import HeaderImage from '../../assets/images/header-image.png';
-import BackgroundImage from '../../assets/images/background-header.png';
 
 import './styles.scss';
 
@@ -9,12 +7,6 @@ export function Header() {
 
     return (
         <div className="header-container">
-
-
-            {/* <div className="logo-container">
-                <img className="background-header" src={BackgroundImage}></img>
-                <img cLass="logo-header" src={LogoImage}></img>
-            </div> */}
 
             <div className="logo-container">
                 <img className="background-header" src={HeaderImage}></img>

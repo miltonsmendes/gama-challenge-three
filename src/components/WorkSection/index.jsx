@@ -2,7 +2,6 @@ import HeartImage from '../../assets/images/heart-icon.svg';
 import HeartBeatImage from '../../assets/images/heart-beat-icon.svg';
 import HandsIcon from '../../assets/images/hands-icon.svg';
 
-
 import './styles.scss';
 
 
@@ -45,10 +44,6 @@ export function WorkSection() {
 
 
             </div>
-
-
-
-
 
         </div>
     );
