@@ -15,13 +15,11 @@
         flex-direction: row;
 
         background: #535353;
-        color: white;
-
+        color: #FFFFFF;
         }
 
         .links-container{
             display: grid;
-         
         }
 
         .nav-menu{
@@ -39,7 +37,6 @@
             padding: 0.5rem 1rem;
         }
         .nav-links:hover {
-
             border-radius: 4px;
             transition: all 0.2s ease-out;
         }

@@ -1,7 +1,21 @@
+import emailjs from 'emailjs-com';
+
 import './styles.scss';
 
 
 export function EmailFormular() {
+
+    function sendEmail(e){
+        e.preventDefault();
+
+        emailjs.sendForm('lealtestGmail', 'template_wy4k7of', e.target, 'user_iomDcVHL2FDmhx0417e7H')
+          .then((result) => {
+              alert('Mensagem enviada! Obrigado pelo contato!')
+          }, (error) => {
+              alert(error.text)
+          });
+          e.target.reset();
+    }
 
     return (
         <div className="email-section-container">
@@ -19,30 +33,32 @@ export function EmailFormular() {
                 </div>
             </div>
 
-            <div className="formular-container">
-                <div>Tem interesse em ajudar nosso projeto? <br />
-                    Entre em contato com a gente!
-                </div>
+            <form onSubmit={sendEmail}>
+                <div className="formular-container">
+                    <div>Tem interesse em ajudar nosso projeto? <br />
+                        Entre em contato com a gente!
+                    </div>
 
-                <div className="input-container">
-                    <div>Nome completo*</div>
-                    <input type="text"></input>
-                </div>
+                    <div className="input-container">
+                        <div>Nome completo*</div>
+                        <input type="text" name="name"></input>
+                    </div>
 
-                <div className="input-container">
-                    <div>E-mail*</div>
-                    <input type="text"></input>
-                </div>
+                    <div className="input-container">
+                        <div>E-mail*</div>
+                        <input type="email" name="email"></input>
+                    </div>
 
-                <div className="input-container">
-                    <div>Mensagem*</div>
-                    <textarea></textarea>
-                </div>
+                    <div className="input-container">
+                        <div>Mensagem*</div>
+                        <textarea name="message"></textarea>
+                    </div>
 
-                <div className="button-container">
-                    <button type="button">Enviar</button>
+                    <div className="button-container">
+                        <button type="submit">Enviar</button>
+                    </div>
                 </div>
-            </div>
+            </form>
 
         </div>
     );

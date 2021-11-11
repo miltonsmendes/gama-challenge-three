@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { FeatureGroup, MapContainer, Marker, TileLayer, LayersControl, useMap} from 'react-leaflet';
+import { FeatureGroup, MapContainer, Marker, TileLayer, LayersControl} from 'react-leaflet';
 import './styles.scss';
 
 
