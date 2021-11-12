@@ -1,5 +1,7 @@
 import { HeaderMenu } from './components/HeaderMenu'
 import { Header } from './components/Header'
+import { ImageSlider } from './components/CarouselComponent'
+import { SliderData } from './components/CarouselComponent/SliderData'
 import { WorkSection } from './components/WorkSection'
 import { DonationSection } from './components/DonationSection'
 import { SocialsSection } from './components/SocialsSection'
@@ -16,6 +18,7 @@ function App() {
       <div id="Quem somos">
         <Header />
       </div>
+      <ImageSlider slides={SliderData} />
       <WorkSection />
       <div id="Doações" >
         <DonationSection />
