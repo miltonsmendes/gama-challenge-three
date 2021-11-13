@@ -4,11 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 600px;
+
+    @media (max-width: 500px) {
+        height: 400px;    
+    }
 }
 
 .image {
     justify-self: center;
-    //width: 85%;
     width: 700px;
 
     max-height: 70%;
@@ -27,6 +31,9 @@
     z-index: 1;
     cursor: pointer;
     user-select: none;
+    @media (max-width: 800px) {
+        right: 5%;      
+    }
 }
 
 .left-arrow {
@@ -38,16 +45,20 @@
     z-index: 1;
     cursor: pointer;
     user-select: none;
+
+    @media (max-width: 800px) {
+        left: 5%;      
+    }
 }
 
 .slide {
     display: flex;
     justify-content: center;
     opacity: 0;
-    transition-duration: 1.0s ease;
+
+    transition: all 1.5s ease-out;
 }
 
 .slide.active{
     opacity: 1;
-    transition-duration: 1.0s;
 }

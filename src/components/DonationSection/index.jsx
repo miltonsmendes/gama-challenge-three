@@ -22,18 +22,6 @@ export function DonationSection() {
 
                         </ul>
                     </div>
-
-                    {/* <div>
-                        <ul>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-
-                        </ul>
-                    </div> */}
                 </div>
             </div>
 
