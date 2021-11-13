@@ -30,6 +30,14 @@
             text-align: center;
             width: 70vw;
             justify-content: center;
+            line-height: 2;
+            border-bottom: 2px solid #51A6D8;
+
+            .active{
+           // transition: all 0.2s ease-in;
+            border-bottom: 2px solid #107fbe;
+            border-radius: 3px;
+            }
         }
         .nav-links {
             color: white;
@@ -39,6 +47,7 @@
         .nav-links:hover {
             border-radius: 4px;
             transition: all 0.2s ease-out;
+            background: #3193cc;
         }
         .fa-bars {
             color: #FFFFFF;

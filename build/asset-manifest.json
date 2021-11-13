@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/gama-challenge-three/static/css/main.b8dc5871.chunk.css",
+    "main.js": "/gama-challenge-three/static/js/main.3aa4ce06.chunk.js",
+    "main.js.map": "/gama-challenge-three/static/js/main.3aa4ce06.chunk.js.map",
+    "runtime-main.js": "/gama-challenge-three/static/js/runtime-main.d52dd67f.js",
+    "runtime-main.js.map": "/gama-challenge-three/static/js/runtime-main.d52dd67f.js.map",
+    "static/js/2.ed455220.chunk.js": "/gama-challenge-three/static/js/2.ed455220.chunk.js",
+    "static/js/2.ed455220.chunk.js.map": "/gama-challenge-three/static/js/2.ed455220.chunk.js.map",
+    "index.html": "/gama-challenge-three/index.html",
+    "static/css/main.b8dc5871.chunk.css.map": "/gama-challenge-three/static/css/main.b8dc5871.chunk.css.map",
+    "static/js/2.ed455220.chunk.js.LICENSE.txt": "/gama-challenge-three/static/js/2.ed455220.chunk.js.LICENSE.txt",
+    "static/media/fimca-logo.a8443ab3.svg": "/gama-challenge-three/static/media/fimca-logo.a8443ab3.svg",
+    "static/media/hands-icon.4d10e528.svg": "/gama-challenge-three/static/media/hands-icon.4d10e528.svg",
+    "static/media/header-image.3eb130df.png": "/gama-challenge-three/static/media/header-image.3eb130df.png",
+    "static/media/heart-beat-icon.68b1ba08.svg": "/gama-challenge-three/static/media/heart-beat-icon.68b1ba08.svg",
+    "static/media/heart-icon.5dbb5de8.svg": "/gama-challenge-three/static/media/heart-icon.5dbb5de8.svg",
+    "static/media/lealfoto1.2ab1b078.png": "/gama-challenge-three/static/media/lealfoto1.2ab1b078.png",
+    "static/media/lealfoto2.73fcb79a.png": "/gama-challenge-three/static/media/lealfoto2.73fcb79a.png",
+    "static/media/lealfoto3.deaa41a9.png": "/gama-challenge-three/static/media/lealfoto3.deaa41a9.png",
+    "static/media/lealfoto4.6c995e70.png": "/gama-challenge-three/static/media/lealfoto4.6c995e70.png",
+    "static/media/mesabrasil-logo.24e9e96c.svg": "/gama-challenge-three/static/media/mesabrasil-logo.24e9e96c.svg",
+    "static/media/mosaico.8e900181.png": "/gama-challenge-three/static/media/mosaico.8e900181.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d52dd67f.js",
+    "static/js/2.ed455220.chunk.js",
+    "static/css/main.b8dc5871.chunk.css",
+    "static/js/main.3aa4ce06.chunk.js"
+  ]
+}

@@ -33,11 +33,15 @@ export function Footer() {
             <div className="socials-container">
                 <div className="footer-title">Redes sociais</div>
                 <div className="socials-icons-container">
-                    <div><i class="fab fa-instagram fa-2x"></i></div>
-                    <div><i class="fab fa-whatsapp fa-2x"></i></div>
-                    <div><i class="fab fa-facebook fa-2x"></i></div>
+                    <div><a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></div>
+                    <div><a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a></div>
+                    <div><a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></div>
                 </div>
-                <div>Direitos reservados</div>
+                <div>
+                    Lar Espírita da Terceira<br />
+                    Idade André Luiz <br />
+                    todos os direitos reservados.
+                </div>
             </div>
         </div>
     );

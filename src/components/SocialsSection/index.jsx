@@ -12,7 +12,7 @@ export function SocialsSection() {
             <div className="icon-container">
                 <div>
                     <div>
-                        <i class="fab fa-instagram fa-4x"></i>
+                        <a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
                     </div>
                     <div>
                         <p>Instagram <br />
@@ -22,7 +22,7 @@ export function SocialsSection() {
 
                 <div>
                     <div>
-                        <i class="fab fa-whatsapp fa-4x"></i>
+                    <a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-whatsapp fa-4x"></i></a>
                     </div>
                     <div>
                         <p>Mensagem no <br />
@@ -32,7 +32,7 @@ export function SocialsSection() {
 
                 <div>
                     <div>
-                        <i class="fab fa-facebook fa-4x"></i>
+                    <a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-facebook fa-4x"></i></a>
                     </div>
                     <div>
                         <p>Facebook para <br />

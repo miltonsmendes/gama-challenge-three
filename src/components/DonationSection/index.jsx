@@ -13,19 +13,17 @@ export function DonationSection() {
                 <div className="list-items-container">
                     <div>
                         <ul>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
+                            <li>Sabonete líquido</li>
+                            <li>Talco</li>
+                            <li>Prestobarbas</li>
+                            <li>Desodorante</li>
+                            <li>Shampoo</li>
+                            <li>Draldas Geriatricas Tam. G </li>
+
                         </ul>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <ul>
                             <li>Alimentos</li>
                             <li>Alimentos</li>
@@ -33,11 +31,9 @@ export function DonationSection() {
                             <li>Alimentos</li>
                             <li>Alimentos</li>
                             <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
-                            <li>Alimentos</li>
+
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
