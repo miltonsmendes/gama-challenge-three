@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gama-challenge-three/static/css/main.646e75da.chunk.css",
-    "main.js": "/gama-challenge-three/static/js/main.2fdc2801.chunk.js",
-    "main.js.map": "/gama-challenge-three/static/js/main.2fdc2801.chunk.js.map",
+    "main.css": "/gama-challenge-three/static/css/main.ffdf8cf4.chunk.css",
+    "main.js": "/gama-challenge-three/static/js/main.5fef511b.chunk.js",
+    "main.js.map": "/gama-challenge-three/static/js/main.5fef511b.chunk.js.map",
     "runtime-main.js": "/gama-challenge-three/static/js/runtime-main.d52dd67f.js",
     "runtime-main.js.map": "/gama-challenge-three/static/js/runtime-main.d52dd67f.js.map",
     "static/js/2.ed455220.chunk.js": "/gama-challenge-three/static/js/2.ed455220.chunk.js",
     "static/js/2.ed455220.chunk.js.map": "/gama-challenge-three/static/js/2.ed455220.chunk.js.map",
     "index.html": "/gama-challenge-three/index.html",
-    "static/css/main.646e75da.chunk.css.map": "/gama-challenge-three/static/css/main.646e75da.chunk.css.map",
+    "static/css/main.ffdf8cf4.chunk.css.map": "/gama-challenge-three/static/css/main.ffdf8cf4.chunk.css.map",
     "static/js/2.ed455220.chunk.js.LICENSE.txt": "/gama-challenge-three/static/js/2.ed455220.chunk.js.LICENSE.txt",
     "static/media/fimca-logo.a8443ab3.svg": "/gama-challenge-three/static/media/fimca-logo.a8443ab3.svg",
     "static/media/hands-icon.4d10e528.svg": "/gama-challenge-three/static/media/hands-icon.4d10e528.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.d52dd67f.js",
     "static/js/2.ed455220.chunk.js",
-    "static/css/main.646e75da.chunk.css",
-    "static/js/main.2fdc2801.chunk.js"
+    "static/css/main.ffdf8cf4.chunk.css",
+    "static/js/main.5fef511b.chunk.js"
   ]
 }

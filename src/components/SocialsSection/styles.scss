@@ -27,6 +27,10 @@
             margin: 0.5rem 0;
         }
 
+        p{
+            line-height: 20px;
+        }
+
         @media (max-width: 500px) {
             flex-direction: column;
         }

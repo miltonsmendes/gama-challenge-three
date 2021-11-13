@@ -16,7 +16,7 @@ export function WorkSection() {
                     <img src={HeartImage} />
                 </div>
                 <div>
-                    <p>Ajudamos idosos
+                    <p>Ajudamos idosos<br />
                         em situação de risco.</p>
                 </div>
 
@@ -27,7 +27,7 @@ export function WorkSection() {
                     <img src={HeartBeatImage} />
                 </div>
                 <div>
-                    <p>Contribuímos para
+                    <p>Contribuímos para<br />
                         auxiliar em situação.</p>
                 </div>
 
@@ -38,7 +38,7 @@ export function WorkSection() {
                     <img src={HandsIcon} />
                 </div>
                 <div>
-                    <p>Queremos garantir
+                    <p>Queremos garantir<br />
                         a qualidade de vida.</p>
                 </div>
 

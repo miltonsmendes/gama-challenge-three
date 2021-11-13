@@ -37,7 +37,7 @@ export function Footer() {
                     <div><a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a></div>
                     <div><a href="https://www.instagram.com/larespiritadaterceiraidade/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></div>
                 </div>
-                <div>
+                <div className="reserved-rights">
                     Lar Espírita da Terceira<br />
                     Idade André Luiz <br />
                     todos os direitos reservados.
