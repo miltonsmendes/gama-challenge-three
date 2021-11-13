@@ -1,6 +1,4 @@
-
 import './styles.scss';
-
 
 export function DonationSection() {
 
@@ -51,24 +49,24 @@ export function DonationSection() {
 
                 <div className="white-container-info">
                     <div>
-                        CHAVE PIX CNPJ: <br />
+                        <strong>CHAVE PIX CNPJ:</strong> <br />
                         02852132000177
                     </div>
                 </div>
 
                 <div className="white-container-info bank-account-container">
                     <div className="bank-account-info">
-                        Conta bancária <br />
+                        <p><strong>Conta bancária</strong> <br /> <br />
 
                         Banco Itaú (341)<br />
-                        Agência: 5833<br />
-                        Conta corrente: 01341-9<br />
-                        CNPJ: 02.852.132.0001-77<br />
+                        <strong>Agência:</strong> 5833<br />
+                        <strong>Conta corrente:</strong> 01341-9<br />
+                        <strong>CNPJ:</strong> 02.852.132.0001-77<br />
+                        </p>
                     </div>
                 </div>
 
             </div>
-
         </div>
     );
 

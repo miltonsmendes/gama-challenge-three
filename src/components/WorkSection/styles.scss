@@ -15,10 +15,14 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-
+        margin: 1rem 0;
         text-align: center;
 
         gap: 0.5rem 12.5rem;
+
+        div {
+            margin: 1rem 0;
+        }
     }
 
 }

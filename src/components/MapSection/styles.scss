@@ -1,18 +1,17 @@
 .map-section-container {
     background: #FFFFFF;
     font-family: "Open Sans", sans-serif;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     margin: 4rem 0;
-
-   // background: linear-gradient(90deg, #3E66FB 70%, #2590CE 30%);
     padding: 1rem
 }
 
 .leaflet-container{
     width: 80vw;
     height: 60vh;
+    z-index: 1;
 }
